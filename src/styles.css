@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Header {
+  background: purple;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.Header img {
+  height: 80%;
+  margin-left: 40px;
+}
+
+.Header p {
+  /* font-family: VT323, monospace; */
+  color: whitesmoke;
+  font-size: 50px;
+  margin-left: 60px;
+}
+
+.meme {
+  position: relative;
+  margin: auto;
+  width: 90%;
+}
+
+.meme img {
+  /* position: absolute; */
+  width: 100%;
+}
+
+.meme-form {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.meme-form input {
+  width: 45%;
+  height: 30px;
+}
+
+.meme h2 {
+  position: absolute;
+}
+.meme .top {
+  top: 0;
+}
+
+.meme .bottom {
+  bottom: 0;
+}
